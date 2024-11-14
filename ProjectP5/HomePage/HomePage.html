@@ -1,0 +1,430 @@
+<html>
+ <head>
+  <title>
+   Home Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="HomePage.css">
+
+ </head>
+
+ <body>
+  <div class="header">
+   <div class="logo">
+    <a href="#Home">
+    <img src="SKENSALOGO!.jpeg" height="80" width="250">
+</a>
+   </div>
+
+   <div class="MenuBar">
+   <nav>
+    <a href="#Home">
+      Home
+    </a>
+     <a href="#Detail">
+      Detail
+     </a>
+     <a href="../GuruPage/Guru.html">
+      Guru
+     </a>
+     <a href="../SiswaPage/Siswa.html">
+      Kelas
+     </a>
+   </nav>
+   </div>
+
+   <div class="profile-container">
+    <div class="Profil" href="#" onclick="toggleDropdown()">
+      <img src="Putu.jpg" height="50px" width="50px" style="border-radius: 50%;">
+    </div>
+    <div class="dropdown" id="dropdownMenu">
+      <a id="out" onclick="logout()">Log Out</a>
+    </div>
+  </div>
+
+  </div>
+    
+
+  <!-- HOME -->
+<section class="Home" id="Home">
+  <div class="hero">
+   <!-- <img src="skensagedung2 1.png", height="400" width="1200" style="filter: blur(2px);"> -->
+   <div class="slider">
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        
+        <div class="slide first">
+            <img src="skensagedung2 1.png" width="1200" height="400" style="filter: blur(2px);">
+        </div>
+        <div class="slide">
+            <img src="TPTU2.jpeg" width="100%" height="100%">
+        </div>
+        <div class="slide">
+            <img src="TPTU6.jpeg" width="100%" height="100%">
+        </div>
+        <div class="slide">
+            <img src="TPTU4.jpeg" width="100%" height="100%">
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <!-- <div class="slider-text">
+        <h1>SMK NEGERI 1 DENPASAR</h1>
+        <p>Siap Disiplin, Berkompeten, & Beretika</p>
+    </div> -->
+</div>
+
+   <div class="text">
+    <h1>
+        TPTU
+       </h1>
+    <h1>
+     SMK NEGERI 1 DENPASAR
+    </h1>
+    <p>
+     Siap Disiplin, Berkompeten, & Beretika
+    </p>
+   </div>
+  </div>
+</section>
+
+<div class="news-ticker">
+  <div class="ticker-text">
+      Berita Terkini: Pengumuman penting akan diumumkan hari ini! | Update terbaru: Website resmi sekolah Jurusan TPTU telah diperbarui | Info terbaru: Pendaftaran siswa didik baru telah dibuka!
+  </div>
+</div>
+
+<!-- DETAIL -->
+ <section class="About" id="Detail">
+  <div class="categories">
+   <button class="active">
+    Berita
+   </button>
+   <button>
+    <a href="#SPP" >SPP</a>
+   </button>
+   <button>
+    <a href="#feedback" >Feedback Alumni</a>
+   </button>
+   <button>
+    <a href="#more" >More Info</a>
+   </button>
+  </div>
+
+  <div class="kategori">Skensa News</div>
+  <section class="Berita" id="#berita">
+  <div class="content">
+   <div class="card">
+    <img src="SkensaNews1.jpg" class="hover-image1" height="500" width="300">
+    <div class="info">
+     <h3>
+      Juara Umum 2
+     </h3>
+     <p>
+      SMKN 1 Denpasar berhasil meraih juara umum 2 pada Pekan Olahraga Tahun 2024, yang dimana ini merupakan Prestasi yang sangat membanggakan bagi SMKN 1 Denpasar
+     </p>
+    </div>
+   </div>
+   <div class="card">
+    <img src="SkensaNews2.jpg" class="hover-image2" height="500" width="300"/>
+    <div class="info">
+     <h3>
+      Graduation Tahun 2023
+     </h3>
+     <p>
+      SMKN 1 Denpasar melepas 854 Lulusan, Menariknya sebanyak 79 orang diterima di sejumlah perguruan tinggi negeri (PTN)
+     </p>
+    </div>
+   </div>
+   <div class="card">
+    <img src="SkensaNews3.jpg" class="hover-image3" height="500" width="300"/>
+    <div class="info">
+     <h3>
+      Peringatan Hari Guru Nasional
+     </h3>
+     <p>
+      SMKN 1 Denpasar mengadakan upacara bendera dalam rangka memperingati Hari Guru Nasional, Semua angkatan mengikuti Upacara Bendera
+     </p>
+    </div>
+   </div>
+   <div class="card">
+    <img src="SkensaNews4.jpg" class="hover-image4" height="500" width="300"/>
+    <div class="info">
+     <h3>
+      HUT SMKN 1 Denpasar Ke-60
+     </h3>
+     <p>
+      Dalam rangka memperingati HUT skensa yang ke 60, Skensa mengundang Gubernur bali. Serta SMKN 1 Denpasar menyuguhkan penampilan Kecak yang diikuti oleh sebagian dari siswa dan sisiwa SMKN 1 Denpasar
+     </p>
+    </div>
+   </div>
+  </div>
+</section>
+</section>
+
+<div class="content-tptu">
+    <!-- Title -->
+    <div class="card-tptu">
+        <img src="TPTU1.jpeg" class="hover-image4" height="500" width="300"/>
+        <div class="info">
+         </p>
+        </div>
+       </div>
+    </div>
+          
+    <div class="desctptup">
+          <div class="desctptu">
+            <h3>
+             Teknik Pendingin & Tata Udara SMK Negeri 1 Denpasar
+            </h3>
+            <p>
+                Jurusan Teknik Pendingin dan Tata Udara (TPTU) di SMKN 1 Denpasar adalah program keahlian yang berfokus pada pembelajaran terkait instalasi, pemeliharaan, perbaikan, dan pengelolaan sistem pendingin udara (refrigerasi) serta tata udara. Siswa belajar memahami konsep dasar termodinamika, teknik pendinginan, dan sistem ventilasi untuk berbagai keperluan seperti AC, pendingin ruangan, hingga sistem pendinginan di gedung-gedung komersial dan industri. Jurusan ini mengajarkan keterampilan praktis dan teori sehingga lulusan siap menghadapi dunia kerja di bidang teknologi pendingin dan tata udara.
+            </p>
+           </div>
+        </div>
+
+<div class="kategori">TPTU Skensa</div>
+<section class="MoreInfo" id="more">
+    <div class="content">
+     <div class="card">
+      <img src="TPTU1.jpeg" class="hover-image1" height="500" width="300">
+      <div class="info">
+       <h3>
+        Ruang Praktek TPTU SKENSA
+       </h3>
+       <p>
+        Laboratorium Teknik Pendingin di SMKN 1 Denpasar dilengkapi dengan peralatan modern yang mendukung praktikum pendinginan, baik untuk AC, kulkas, maupun sistem refrigerasi lainnya.
+      </div>
+     </div>
+     <div class="card">
+      <img src="TPTU5.jpeg" class="hover-image2" height="500" width="300"/>
+      <div class="info">
+       <h3>
+        Tempat LKS TPTU
+       </h3>
+       <p>
+       Tempat LKS TPTU digunakan untuk melatih skill sebelum mengikuti lomba LKS mewakili SMKN 1 Denpasar.
+       </p>
+      </div>
+     </div>
+     <div class="card">
+      <img src="TPTU3.jpeg" class="hover-image3" height="500" width="300"/>
+      <div class="info">
+       <h3>
+        Fasilitas Ruangan TPTU
+       </h3>
+       <p>
+        Ruangan Praktek TPTU dilengkapi dengan berbagai fasilitas salah satunya adalah memiliki beberapa mesin pendingin yang siap di otak-atik siswa.
+       </p>
+      </div>
+     </div>
+     <div class="card">
+      <img src="TPTU4.jpeg" class="hover-image4" height="500" width="300"/>
+      <div class="info">
+       <h3>
+        Meja Alat TPTU
+       </h3>
+       <p>
+        Dilengkapi dengan berbagai alat alat yang dapat menunjang dalam memperbaiki mesin pendingin khususnya untuk Siswa TPTU SMKN 1 Denpasar
+       </p>
+      </div>
+     </div>
+    </div>
+  </section>
+  </section>
+
+<section class="bento-grid">
+  <div class="grid-item">
+      <img src="TPTU4.jpeg" alt="Image 1">
+      <div class="overlay">
+          <p>Ruang Praktek TPTU 1</p>
+      </div>
+  </div>
+  <div class="grid-item">
+      <img src="TPTU3.jpeg" alt="Image 2">
+      <div class="overlay">
+          <p>Ruang Praktek TPTU 2</p>
+      </div>
+  </div>
+  <div class="grid-item">
+      <img src="TPTU2.jpeg" alt="Image 3">
+      <div class="overlay">
+          <p>Ruang Praktek TPTU 3</p>
+      </div>
+  </div>
+  <div class="grid-item wide">
+      <img src="TPTU1.jpeg" alt="Image 4">
+      <div class="overlay">
+          <p>Ruang Praktek TPTU 4</p>
+      </div>
+  </div>
+  <div class="grid-item tall">
+      <img src="TPTU1POP.jpeg" alt="Image 5">
+      <div class="overlay">
+          <p>Ruang Praktek TPTU 5</p>
+      </div>
+  </div>
+</section>
+
+<div class="Pekerjaan">
+<div class="kategori">Lapangan Kerja</div>
+<section class="MoreInfo" id="more">
+    <div class="card-container">
+        <div class="card">
+            <img alt="A woman working on a laptop at a desk with documents" height="400" src="https://storage.googleapis.com/a1aa/image/a3BC7eiNfcqTgUJa1UCmlENIkXde7uofFUNHoX6lyPrtZQCPB.jpg" width="600"/>
+            <div class="card-content">
+                <h3>Sales Perusahan Pendingin</h3>
+                <p>Anda bisa melamar pekerjaan di perusahaan pembuat sistem mesin pendingin seperti AC, Kulkas, atau mesin sistem pendingin lainnya. Contohnya Daikin, sebagai salah satu perusahaanmesin pendingin atau mesin refrigerasi.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Technicians working on HVAC systems on a rooftop with a cityscape in the background" height="400" src="https://storage.googleapis.com/a1aa/image/r7nT50VoypoRNph6FziuVzt7bNqXjoJDb5kmlPdntcAmBJ8E.jpg" width="600"/>
+            <div class="card-content">
+                <h3>Teknisi HVAC</h3>
+                <p>Teknisi HVAC (Heating, Ventilation, and Air Conditioning) adalah profesional yang memiliki keterampilan untuk memasang, memelihara, dan memperbaiki sistem pemanas, ventilasi, dan pendingin udara.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="A technician working on an air conditioning unit with tools" height="400" src="https://storage.googleapis.com/a1aa/image/6iVvMK55r3ogLRWbjeA0DE66Me3UmFsfdHTdEssAdHxoMIhnA.jpg" width="600"/>
+            <div class="card-content">
+                <h3>Teknisi AC dan Refrigerasi</h3>
+                <p>Teknisi AC dan Refrigerasi adalah seorang profesional yang bertanggung jawab dalam perawatan, perbaikan, pemasangan, dan pemeliharaan sistem pendingin udara (AC) dan sistem refrigerasi atau sistem pendingin komersial maupun industri.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="A warehouse with shelves full of boxes" height="400" src="https://storage.googleapis.com/a1aa/image/87Nzdc2WVa4eKazA2H7SSlxiLLQ8TQrEed3vuR7ma31VGkwTA.jpg" width="600"/>
+            <div class="card-content">
+                <h3>Wirausahawan</h3>
+                <p>Tentu dengan keahlian yang dipelajari di SMK/MAK atau perkuliahan, maka Anda punyake mampuan dan mengerti mengenai sistem pendingin. Sehingga Anda bisa membuka usahaservis mesin pendingin seperti AC, kulkas, atau mesin pendingin lainnya.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<section class="Feedback" id="feedback">
+
+        <div class="features">
+         <div class="feature">
+          <h3>
+           Guru
+          </h3>
+          <p>
+           Ramah, Ganteng, Tampan & Baik Hati
+          </p>
+         </div>
+         <section class="SPP" id="SPP">
+         <div class="feature">
+          <h3>
+           SPP
+          </h3>
+          <p>
+           Mulai Dari Harga 1.5 Juta - 2 Juta / Bulan Full Teknologi
+          </p>
+         </div>
+      </section>
+         <div class="feature">
+          <h3>
+           Fasilitas
+          </h3>
+          <p>
+           Fasilitas Lengkap & Dilengkapi Teknologi Maju
+          </p>
+         </div>
+         <div class="feature">
+            <h3>
+             Alumni
+            </h3>
+            <p>
+             Berhasil mencetak banyak alumni berbakat dan beretika
+            </p>
+           </div>
+         </div>
+
+    <div class="container-komen">
+        <div class="card-komen">
+            <h3>Pak Bayu Prawira</h3>
+            <p>Sekolah ini sangat keren dan cocok untuk remaja. Fasilitasnya lengkap dan modern!</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="card-komen">
+            <h3>Alit</h3>
+            <p>Sekolah ini memiliki fasilitas yang sangat lengkap dan berkualitas. Sangat direkomendasikan!</p>
+            <div class="rating">⭐⭐⭐⭐</div>
+        </div>
+        <div class="card-komen">
+            <h3>Desta</h3>
+            <p>Para siswi di sini sangat cantik dan ramah. Lingkungan sekolah yang menyenangkan!</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="card-komen">
+            <h3>Juni Artawan</h3>
+            <p>Sekolah ini memiliki disiplin yang ketat, sangat cocok untuk yang ingin belajar dengan serius!</p>
+            <div class="rating">⭐⭐⭐⭐</div>
+        </div>
+        <div class="card-komen">
+            <h3>Riski Adi</h3>
+            <p>Lokasi sekolah sangat strategis dan para gurunya sangat ramah dan profesional!</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="card-komen">
+            <h3>Satya</h3>
+            <p>Sekolah ini sangat keren dengan fasilitas yang luar biasa. Pengalaman belajar yang menyenangkan!</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+    </div>
+    <script src="HomePage.js"></script>
+</section>
+
+
+  <footer class="footer-container">
+    <div class="footer-left">
+        <img src="SKENSALOGO.png" class="logo">
+    </div>
+    <div class="footer-right">
+        <div class="discount-code">
+            <h3>Redeem Code for Discount</h3>
+            <input type="text" placeholder="Input Your Code..." id="discount-code-input">
+        </div>
+        <div class="footer-content">
+            <div class="menu">
+                <h4 class="menu1">Menu</h4>
+                <ul>
+                    <li><a href="#Home" style="color: #fff;" >Home</a></li>
+                    <li><a href="#Detail" style="color: #fff;" >About</a></li>
+                    <li><a href="#guru" style="color: #fff;" >Guru</a></li>
+                    <li><a href="#kelas" style="color: #fff;" >Kelas</a></li>
+                    <li><a href="#siswa" style="color: #fff;" >Siswa</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h4>Contact</h4>
+                <p>Contact us for any questions or inquiries.</p>
+                <p>Email: tptuskensa@gmail.com</p>
+                <p>Phone: 087956873187</p>
+                <p>Address: Jl. Cokrominoto, Denpasar</p>
+                <p>Social media links: @tptuskensa</p>
+            </div>
+            <div class="blog">
+                <h4>Blog</h4>
+                <p>"TPTU SMKN 1 Denpasar: Menyiapkan Generasi Terampil di Bidang Teknik Pendingin & Tata Udara."</p>
+                <p>"SMKN 1 Denpasar: Wadah Pendidikan untuk Ahli Teknik Pendingin & Tata Udara yang Handal."</p>
+                <p>"Teknik Pendingin & Tata Udara di SMKN 1 Denpasar: Mengasah Keahlian, Menyongsong Masa Depan."</p>
+            </div>
+        </div>
+    </div>
+    
+  </footer>
+
+ </body>
+</html>
